@@ -9,3 +9,4 @@
 *.zip
 *.sql
 *.xml
+config_db.php
