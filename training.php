@@ -4,13 +4,16 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
 echo Array("1","2");
-echo '<br>';
+echo '<br><hr>';
+
 
 $text = "Привет мир";
 echo strlen($text);
 
-echo '<br>';
-echo 6 / ($d = (5 % 2) - 1);echo '<br>';
+echo '<br><hr>';
+echo 'Что получится в результате этого кода 6 / ($d = (5 % 2) - 1)<br>';
+echo 6 / ($d = (5 % 2) - 1);
+echo '<br><hr>';
 
 $arr = array(0,1,2);
 foreach ($arr as $value) {
@@ -18,13 +21,14 @@ foreach ($arr as $value) {
 }
 print_r($arr);
 
-echo '<br>';
-
+echo '<br><hr>';
+echo 'Что выведет приведённый ниже код в PHP7.1 и более новых версиях?<br>';
 function Hello($a,$b) {
     echo "Hello" .$a;
 }
 
 Hello("Vasya");
+echo '<br><hr>';
 
 // потренируем регулярки
 $string = "PHP56_testing";
